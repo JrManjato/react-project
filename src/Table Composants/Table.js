@@ -1,8 +1,10 @@
+import { Pagination } from "./Pagination";
 import { TableBody } from "./TableBody";
 import { THead } from "./THead";
 
-export function Table(params) {
+export function Table() {
     return(
+    <>
         <table id="datatablesSimple" className="table table-bordered">                             
                 <thead>
                     <THead label1="Name" label2="Position" label3="Office" label4="Age" label5="Start date" label6="Salary" />
@@ -70,5 +72,7 @@ export function Table(params) {
                     <TableBody label1="Donna Snider" label2="Customer Support" label3="New York" label4="27" label5="2011/01/25" label6="$112,000" />   
                 </tbody>
               </table>
+              <Pagination />
+        </>
     );
 }

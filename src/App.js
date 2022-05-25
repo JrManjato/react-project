@@ -21,7 +21,6 @@ import { ConteuneurFluid } from './Others/Conteneur';
 import { Footer } from './Others/Footer';
 import { Title1 } from './Others/Title1';
 import { Table } from './Table Composants/Table';
-
 function App() {
   return (
     <body>
