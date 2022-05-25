@@ -3,7 +3,7 @@ import { THead } from "./THead";
 
 export function Table(params) {
     return(
-        <table id="datatablesSimple">                             
+        <table id="datatablesSimple" className="table table-bordered">                             
                 <thead>
                     <THead label1="Name" label2="Position" label3="Office" label4="Age" label5="Start date" label6="Salary" />
                 </thead>
